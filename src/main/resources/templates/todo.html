@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo</title>
+</head>
+<body>
+  <h1>Détail Todo</h1>
+
+<p>Nom : <span th:text="${todo.getName()}"></span></p>
+<p>Description : <span th:text="${todo.getDescription()}"></span></p>
+<p>Réalisé : <span th:text="${todo.isIdDone()}"></span></p>
+</body>
+</html>
